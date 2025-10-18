@@ -1,0 +1,116 @@
+# ---- PYTHON CORE ----
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+*.pdb
+*.so
+*.egg
+*.egg-info/
+.eggs/
+build/
+dist/
+pip-wheel-metadata/
+*.manifest
+*.spec
+
+# ---- ENVIRONMENTS ----
+venv/
+.venv/
+env/
+.env/
+ENV/
+ENV.*/
+env.*/
+.ENV/
+# local virtualenvs with random suffixes
+venv*/
+env*/
+.venv*/
+.virtualenv*/
+.python_env*/
+.python_env*/
+
+# ---- ENV + SECRETS ----
+.env
+.env.*
+!.env.example
+*.secret
+*.local
+*.key
+*.pem
+*.crt
+
+# ---- FASTAPI / UVICORN ----
+*.log
+logs/
+*.pid
+*.pid.lock
+uvicorn.log
+gunicorn.log
+*.db
+*.sqlite*
+data/
+tmp/
+temp/
+.cache/
+sessions/
+
+# ---- TESTS / TOOLS ----
+.coverage
+htmlcov/
+.tox/
+.nox/
+.pytest_cache/
+.mypy_cache/
+.pyre/
+.pytype/
+.dmypy.json
+pytestdebug.log
+
+# ---- EDITORS / IDEs ----
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+*.code-workspace
+*.history/
+*.swp
+*.bak
+*.tmp
+*.orig
+*.rej
+
+# ---- OS JUNK ----
+.DS_Store
+Thumbs.db
+ehthumbs.db
+desktop.ini
+Icon?
+.Trashes
+.nfs*
+.AppleDouble/
+.LSOverride
+
+# ---- DOCKER / DEPLOY ----
+.docker/
+docker-compose.override.yml
+*.pid
+*.sock
+
+# ---- MISC DEV FUZZ ----
+node_modules/
+bower_components/
+uploads/
+__snapshots__/
+out/
+coverage/
+profile/
+profile_data/
+notes/
+scratch/
+*.cache
+*.bak
+*.old
+*.log.old
