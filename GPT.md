@@ -1,6 +1,6 @@
 layout: page
 title: "Test SHit
-permalink: /
+permalink: /pages
 
 
 ### Testing out github pages
